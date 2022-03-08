@@ -5,7 +5,9 @@ import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='max-w-screen-lg mx-auto px-2'>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 )
